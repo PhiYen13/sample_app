@@ -1,0 +1,7 @@
+<% provide(:title, t(".help")) %>
+<h1><%= t(".help") %> </h1>
+<p>
+  <%= t(".body_text",
+    link_help: link_to(t(".help_href"),"https://www.railstutorial.org/help"),
+    link_book: link_to(t(".book_href"),"https://www.railstutorial.org/")).html_safe %>
+</p>
