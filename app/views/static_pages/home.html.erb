@@ -1,6 +1,13 @@
 <% provide(:title, t(".home")) %>
-<h1><%= t(".title") %></h1>
-<p> 
-  <%= t(".body_text",
-    link_home: link_to(t(".home_href"), "https://www.railstutorial.org/")).html_safe  %>
-</p>
+<div class="center jumbotron">
+  <h1><%= t(".title") %></h1>
+
+  <h2> 
+    <%= t(".body_text",
+     link_home: link_to(t(".home_href"), "https://www.railstutorial.org/")).html_safe  %>
+  </h2>
+
+  <%= link_to t(".sign_up"), signup_path, class: "btn btn-lg btn-primary" %>
+</div>
+<%= link_to image_tag("rails.png", alt: t(".rails_logo")),
+  "http://rubyonrails.org/" %>

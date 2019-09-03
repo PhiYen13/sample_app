@@ -4,10 +4,24 @@ en:
       title: "| Ruby on Rails Tutorial Sample App"
       English: "English"
       VietNam: "VietNam"
+    header:
+      logo: "sample app"
+      home: "Home"
+      help: "Help"
+      login: "Log in"
+    footer:
+      text: "The %{link_ruby} by %{link_Michael}"
+      ruby_href: "Ruby on Rails Tutorial"
+      michael_href: "Michael Hartl"
+      about: "About"
+      contact: "Contact"
+      new: "News"
   static_pages:
     base_title: "Ruby on Rails Tutorial Sample App"
     home:
-      title: "Sample App"
+      title: "Welcome to the Sample App"
+      sign_up: "Sign up now!"
+      rails_logo: "Rails logo"
       body_text: "This is the home page for the %{link_home} sample application."
       home_href: "Ruby on Rails Tutorial"
       home: "Home"
@@ -29,3 +43,7 @@ en:
       title: "Contact"
       body_text: "Contact the Ruby on Rails Tutorial about the sample app at the %{link_contact}."
       contact_href: "contact page"
+  users:
+    new:
+      title: "Sign up"
+      body_text: "This will be a signup page for new users."
