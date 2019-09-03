@@ -5,6 +5,7 @@ en:
       English: "English"
       VietNam: "VietNam"
   static_pages:
+    base_title: "Ruby on Rails Tutorial Sample App"
     home:
       title: "Sample App"
       body_text: "This is the home page for the %{link_home} sample application."

@@ -5,6 +5,7 @@ vi:
       English: "Tiếng Anh"
       VietNam: "Tiếng Việt"
   static_pages:
+    base_title: "Hướng dẫn ứng dụng mẫu"
     home:
       title: "Ứng dụng mẫu"
       body_text: "Đây là trang chủ cho ứng dụng mẫu cho %{link_home}."
