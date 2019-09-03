@@ -1,0 +1,30 @@
+vi:
+  layouts:
+    application:
+      title: "| Hướng dẫn Ruby on Rail cho ứng dụng mẫu"
+      English: "Tiếng Anh"
+      VietNam: "Tiếng Việt"
+  static_pages:
+    home:
+      title: "Ứng dụng mẫu"
+      body_text: "Đây là trang chủ cho ứng dụng mẫu cho %{link_home}."
+      home_href: "Ruby on Rails Tutorial"
+      home: "Trang chủ"
+    about:
+      about: "Thông tin" 
+      body_text: "%{link_home} là một %{link_book} và %{link_screencast} 
+      để dạy phát triển web với %{link_ruby}. Đây là hướng dẫn cho ứng dụng mẫu"
+      home_href: "Ruby on Rails Tutorial"
+      book_href: "cuốn sách"
+      screencast_href: "loạt màn chụp"
+      ruby_href: "Ruby on Rails"
+    help:
+      help: "Trợ giúp"
+      body_text: "Nhận trợ giúp về Hướng dẫn Ruby on Rails tại phần %{link_help} 
+      Để nhận trợ giúp về ứng dụng mẫu này, hãy xem sách %{link_book}."
+      help_href: "Rails Tutorial help"
+      book_href: "Ruby on Rails Tutorial"
+    contact:
+      title: "Liên hệ"
+      body_text: "Liên hệ với Hướng dẫn về Ruby on Rails về ứng dụng mẫu tại %{link_contact}."
+      contact_href: "trang liên hệ"
