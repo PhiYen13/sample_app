@@ -4,10 +4,24 @@ vi:
       title: "| Hướng dẫn Ruby on Rail cho ứng dụng mẫu"
       English: "Tiếng Anh"
       VietNam: "Tiếng Việt"
+    header:
+      logo: "ứng dụng mẫu"
+      home: "Trang chủ"
+      help: "Trợ giúp"
+      login: "Đăng nhập"
+    footer:
+      text: "Các %{link_ruby} bởi %{link_Michael}"
+      ruby_href: "hướng dẫn về Ruby on rails"
+      michael_href: "Michael Hartl"
+      about: "Thông tin"
+      contact: "Liên hệ"
+      new: "Tin"
   static_pages:
     base_title: "Hướng dẫn ứng dụng mẫu"
     home:
-      title: "Ứng dụng mẫu"
+      title: "Chào mừng đến với Ứng dụng mẫu"
+      sign_up: "Đăng ký ngay bây giờ!"
+      rails_logo: "Rails logo!"
       body_text: "Đây là trang chủ cho ứng dụng mẫu cho %{link_home}."
       home_href: "Ruby on Rails Tutorial"
       home: "Trang chủ"
@@ -29,3 +43,7 @@ vi:
       title: "Liên hệ"
       body_text: "Liên hệ với Hướng dẫn về Ruby on Rails về ứng dụng mẫu tại %{link_contact}."
       contact_href: "trang liên hệ"
+  users:
+    new:
+      title: "Đăng ký"
+      body_text: "Đây sẽ là một trang đăng ký cho người dùng mới."

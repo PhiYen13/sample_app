@@ -1,0 +1,14 @@
+<footer class="footer">
+  <small>
+    <%= t(".text",
+      link_ruby: link_to(t(".ruby_href"),"https://www.railstutorial.org/"),
+      link_Michael: link_to(t(".michael_href"),"http://www.michaelhartl.com/")).html_safe %>
+  </small>
+  <nav>
+    <ul>
+      <li><%= link_to t(".about"), about_path %></li>
+      <li><%= link_to t(".contact"), contact_path %></li>
+      <li><%= link_to t(".new"), "http://news.railstutorial.org/" %></li>
+    </ul>
+  </nav>
+</footer>
