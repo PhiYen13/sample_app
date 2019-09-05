@@ -1,4 +1,7 @@
 vi:
+  controllers:
+    sessions_controller:
+      flash_danger: "Email/mật khẩu không hơp lệ"
   layouts:
     application:
       title: "| Hướng dẫn Ruby on Rail cho ứng dụng mẫu"
@@ -9,6 +12,11 @@ vi:
       home: "Trang chủ"
       help: "Trợ giúp"
       login: "Đăng nhập"
+      users: "Người dùng"
+      accounts: "Tài khoản"
+      profile: "Hồ sơ"
+      settings: "Cài đặt"
+      logout: "Đăng xuất"
     footer:
       text: "Các %{link_ruby} bởi %{link_Michael}"
       ruby_href: "hướng dẫn về Ruby on rails"
@@ -58,3 +66,10 @@ vi:
   shared:
     error_messages:
       error: "Biểu mẫu chứa %{count} lỗi"
+  sessions:
+    new:
+      login: "Đăng nhập"
+      email: "Email"
+      password: "Mật khẩu"
+      new_user: "Người dùng mới?"
+      sign_up_now: "Đăng kí ngay bây giờ!"

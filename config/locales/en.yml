@@ -1,4 +1,7 @@
 en:
+  controllers:
+    sessions_controller:
+      flash_danger: "Invalid email/password combination"
   layouts:
     application:
       title: "| Ruby on Rails Tutorial Sample App"
@@ -9,6 +12,11 @@ en:
       home: "Home"
       help: "Help"
       login: "Log in"
+      users: "Users"
+      accounts: "Accounts"
+      profile: "Profile"
+      settings: "Settings"
+      logout: "Log out"
     footer:
       text: "The %{link_ruby} by %{link_Michael}"
       ruby_href: "Ruby on Rails Tutorial"
@@ -58,3 +66,10 @@ en:
   shared:
     error_messages:
       error: "The form contains %{count} error"
+  sessions:
+    new:
+      login: "Log in"
+      email: "Email"
+      password: "Password"
+      new_user: "New user?"
+      sign_up_now: "Sign up now! "
