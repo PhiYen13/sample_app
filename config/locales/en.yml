@@ -46,4 +46,15 @@ en:
   users:
     new:
       title: "Sign up"
-      body_text: "This will be a signup page for new users."
+      name: "Name"
+      email: "Email"
+      password: "Password"
+      confirm: "Conformation"
+      create: "Create my account"
+    create:
+      flash: "Welcome to the Sample App!"
+    show:
+      user_not_exit: "User does not exist!"
+  shared:
+    error_messages:
+      error: "The form contains %{count} error"

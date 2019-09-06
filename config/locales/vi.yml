@@ -46,4 +46,15 @@ vi:
   users:
     new:
       title: "Đăng ký"
-      body_text: "Đây sẽ là một trang đăng ký cho người dùng mới."
+      name: "Tên"
+      email: "Email"
+      password: "Mật khẩu"
+      confirm: "Xác nhận mật khẩu"
+      create: "Tạo tài khoản"
+    create:
+      flash: "Chào mừng đến với ứng dụng mẫu"
+    show:
+      user_not_exit: "User không tìm thấy!"
+  shared:
+    error_messages:
+      error: "Biểu mẫu chứa %{count} lỗi"
