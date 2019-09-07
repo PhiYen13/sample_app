@@ -1,7 +1,4 @@
 vi:
-  controllers:
-    sessions_controller:
-      flash_danger: "Email/mật khẩu không hơp lệ"
   layouts:
     application:
       title: "| Hướng dẫn Ruby on Rail cho ứng dụng mẫu"
@@ -59,10 +56,16 @@ vi:
       password: "Mật khẩu"
       confirm: "Xác nhận mật khẩu"
       create: "Tạo tài khoản"
-    create:
-      flash: "Chào mừng đến với ứng dụng mẫu"
-    show:
-      user_not_exit: "User không tìm thấy!"
+    index:
+      title: "Tất cả người dùng"
+    user:
+      confirm: "Bạn chắc chứ?"
+      delete: "Xóa"
+    edit:
+      title: "Chỉnh sửa người dùng"
+      submit: "Lưu thay đổi"
+      text: "Cập nhật thông tin của bạn"
+      change: "Thay đổi"
   shared:
     error_messages:
       error: "Biểu mẫu chứa %{count} lỗi"
@@ -74,3 +77,15 @@ vi:
       new_user: "Người dùng mới?"
       sign_up_now: "Đăng kí ngay bây giờ!"
       remember_me: "Nhớ tôi trên máy tính"
+  controllers:
+    sessions_controller:
+      flash_danger: "Email/mật khẩu không hơp lệ"
+    users:
+      welcome: "Chào mừng đến với ứng dụng mẫu"
+      user_not_exit: "User không tìm thấy!"
+      not_log_in: "Hãy đăng nhập."
+      destroy: "Người dùng dã bị xóa"
+      load_user: "Người dùng không tồn tại"
+      update: "Thông tin cập nhật"
+      destroy_success: "Xóa thành công!"
+      destroy_fail: "Xóa thất bại"

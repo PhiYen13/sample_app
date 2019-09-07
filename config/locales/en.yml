@@ -1,7 +1,4 @@
 en:
-  controllers:
-    sessions_controller:
-      flash_danger: "Invalid email/password combination"
   layouts:
     application:
       title: "| Ruby on Rails Tutorial Sample App"
@@ -59,10 +56,16 @@ en:
       password: "Password"
       confirm: "Conformation"
       create: "Create my account"
-    create:
-      flash: "Welcome to the Sample App!"
-    show:
-      user_not_exit: "User does not exist!"
+    index:
+      title: "All users"
+    user:
+      confirm: "You sure?"
+      delete: "Delete"
+    edit:
+      title: "Edit user"
+      submit: "Save changes"
+      text: "Update your profile"
+      change: "Change"
   shared:
     error_messages:
       error: "The form contains %{count} error"
@@ -74,3 +77,15 @@ en:
       new_user: "New user?"
       sign_up_now: "Sign up now! "
       remember_me: "Remember me on this computer"
+  controllers:
+    sessions_controller:
+      flash_danger: "Invalid email/password combination"
+    users:
+      welcome: "Welcome to the Sample App!"
+      user_not_exit: "User does not exist!"
+      not_log_in: "Please log in."
+      destroy: "User deleted"
+      load_user: "User not exist"
+      update: "Profile updated"
+      destroy_success: "Delete successful!"
+      destroy_fail: "Delete fail!"

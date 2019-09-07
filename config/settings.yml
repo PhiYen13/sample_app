@@ -3,3 +3,4 @@ maximum_lenght_email: 255
 minimum_lenght_password: 6
 gravatar: 80
 remember: "1"
+perpage: 9
