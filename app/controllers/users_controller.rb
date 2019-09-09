@@ -2,7 +2,7 @@ class UsersController < ApplicationController
   def show
     @user = User.find_by id: params[:id]
     return if @user
-    flash[:danger] =  t "users.show.user_not_exit"
+    flash[:danger] = t "users.show.user_not_exit"
     redirect_to root_path
   end
 
@@ -13,6 +13,7 @@ class UsersController < ApplicationController
   def create
     @user = User.new(user_params)
     if @user.save
+      log_in @user
       flash[:success] = t "users.create.flash"
       redirect_to @user
     else
