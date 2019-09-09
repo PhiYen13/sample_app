@@ -8,7 +8,7 @@ class SessionsController < ApplicationController
       check_remember user
       redirect_to user
     else
-      flash.now[:danger] = t "controllers.sessions_controller.flash_danger"
+      flash.now[:danger] = t "controllers.sessions.flash_danger"
       render :new
     end
   end

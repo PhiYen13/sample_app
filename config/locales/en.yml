@@ -77,8 +77,14 @@ en:
       new_user: "New user?"
       sign_up_now: "Sign up now! "
       remember_me: "Remember me on this computer"
+  user_mailer:
+    account_activation:
+      title: "Sample App"
+      hello: "Hello,"
+      html: "Welcome to the Sample App! Click on the link below to activate your account:"
+      active: "Active"
   controllers:
-    sessions_controller:
+    sessions:
       flash_danger: "Invalid email/password combination"
     users:
       welcome: "Welcome to the Sample App!"
@@ -89,3 +95,10 @@ en:
       update: "Profile updated"
       destroy_success: "Delete successful!"
       destroy_fail: "Delete fail!"
+      infor: "Please check your email to activate your account."
+    account_activations:
+      success: "Account activated!"
+      danger: "Invalid activation link"
+  mailers:
+    user:
+      subject: "Account activation"

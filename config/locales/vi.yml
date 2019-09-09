@@ -77,8 +77,14 @@ vi:
       new_user: "Người dùng mới?"
       sign_up_now: "Đăng kí ngay bây giờ!"
       remember_me: "Nhớ tôi trên máy tính"
+  user_mailer:
+    account_activation:
+      title: "Ứng dụng mẫu"
+      hello: "Chào,"
+      html: "Chào mừng đến với Sample App! Nhấn vào đường dẫn để kích hoạt taì khoản:"
+      active: "Kích hoạt"
   controllers:
-    sessions_controller:
+    sessions:
       flash_danger: "Email/mật khẩu không hơp lệ"
     users:
       welcome: "Chào mừng đến với ứng dụng mẫu"
@@ -89,3 +95,10 @@ vi:
       update: "Thông tin cập nhật"
       destroy_success: "Xóa thành công!"
       destroy_fail: "Xóa thất bại"
+      infor: "Hãy kiểm tra email của bạn để kích hoạt tài khoản."
+    account_activations:
+      success: "tài khoản được kích hoạt"
+      danger: "Liên kết kích hoạt không hợp lệ"
+  mailers:
+    user:
+      subject: "Kích hoạt tài khoản"
