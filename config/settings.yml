@@ -4,3 +4,4 @@ minimum_lenght_password: 6
 gravatar: 80
 remember: "1"
 perpage: 9
+time_exists: 2
