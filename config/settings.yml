@@ -2,6 +2,11 @@ maximum_lenght_name: 50
 maximum_lenght_email: 255
 minimum_lenght_password: 6
 gravatar: 80
+gravatar_micropost: 50
 remember: "1"
 perpage: 9
 time_exists: 2
+maximum_micropost: 140
+max_size_picture: 5
+size_picture: 400
+accept_picture: "image/jpeg,image/gif,image/png"
