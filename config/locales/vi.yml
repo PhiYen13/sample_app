@@ -71,6 +71,13 @@ vi:
       submit: "Lưu thay đổi"
       text: "Cập nhật thông tin của bạn"
       change: "Thay đổi"
+    follow:
+      follow: "Theo dõi"
+    unfollow:
+      unfollow: "Bỏ theo dõi"
+    show_follow:
+      view_my_profile: "Xem hồ sơ của tôi"
+      microposts: "Bài viết"
   shared:
     error_messages:
       error: "Biểu mẫu chứa %{count} lỗi"
@@ -81,6 +88,9 @@ vi:
     user_info:
       view_profile: "Xem hồ sơ của tôi"
       micropost: "Bài viết"
+    stats:
+      following: "Đang theo dõi"
+      followers: "Người theo dõi"
   sessions:
     new:
       login: "Đăng nhập"
@@ -140,6 +150,8 @@ vi:
       user_not_exit: "User không tìm thấy!"
       user_delete: "Người dùng đã bị xóa"
       log_in: "Hãy đăng nhập"
+      following: "Đang theo dõi"
+      followers: "Người theo dõi"
     account_activations:
       success: "Tài khoản được kích hoạt"
       danger: "Liên kết kích hoạt không hợp lệ"
@@ -156,6 +168,8 @@ vi:
       delete_success: "Xóa bài viết thành công!"
       delete_fail: "Xóa bài viết thất bại!"
       flash_warming: "Không có bài viết"
+    relationship:
+      findfail: "Relationship not exist"
   mailers:
     user:
       account: "Kích hoạt tài khoản"
