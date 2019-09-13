@@ -77,18 +77,39 @@ vi:
       new_user: "Người dùng mới?"
       sign_up_now: "Đăng kí ngay bây giờ!"
       remember_me: "Nhớ tôi trên máy tính"
+      forgot_password: "(Quên mật khẩu)"
   user_mailer:
     account_activation:
       title: "Ứng dụng mẫu"
       hello: "Chào,"
       html: "Chào mừng đến với Sample App! Nhấn vào đường dẫn để kích hoạt taì khoản:"
       active: "Kích hoạt"
+    password_reset: 
+      title: "Đặt lại mật khẩu"
+      text: "Để đặt lại mật khẩu, vui lòng truy cập liên kết bên dưới:"
+      expire: "Liên kết này sẽ hết hạn sau 2 giờ."
+      no_request: "Nếu bạn không yêu cầu đổi lại mật khẩu, vui lòng bỏ qua tin nhắn này
+                   và mật khẩu của bạn sẽ được giữ nguyên."
   controllers:
     sessions:
       flash_danger: "Email/mật khẩu không hơp lệ"
+  password_resets:
+    new:
+      title: "Quên mật khẩu"
+      email: "Email"
+      submit: "Gửi đi"
+    edit:
+      title: "Đặt lại mật khẩu"
+      password: "Mật khẩu"
+      confirm: "Xác nhận mật khẩu"
+      update: "Cập nhật mật khẩu"
+  controllers:
+    sessions:
+      flash_danger: "Email/mật khẩu không hợp lệ"
+      login_success: "Chúc mừng bạn đã đăng nhập thành công!"
+      account_active: "Tài khoản chưa kích hoạt. Kiểm tra thư được gửi trong email."
     users:
       welcome: "Chào mừng đến với ứng dụng mẫu"
-      user_not_exit: "User không tìm thấy!"
       not_log_in: "Hãy đăng nhập."
       destroy: "Người dùng dã bị xóa"
       load_user: "Người dùng không tồn tại"
@@ -97,8 +118,17 @@ vi:
       destroy_fail: "Xóa thất bại"
       infor: "Hãy kiểm tra email của bạn để kích hoạt tài khoản."
     account_activations:
-      success: "tài khoản được kích hoạt"
+      success: "Tài khoản được kích hoạt"
       danger: "Liên kết kích hoạt không hợp lệ"
+    password_resets:
+      send_email: "Email được gửi với hướng dẫn đặt lại mật khẩu"
+      not_find_email: "Không tìm thấy địa chỉ email"
+      update: "Mật khẩu đã được đặt lại"
+      not_find: "Không tìm thấy"
+      success: "Mật khẩu đã được đặt lại"
+      empty_pass: "Mật khẩu trống"
+      expired: "Yêu cầu đặt lại mật khẩu hết hạn"
   mailers:
     user:
-      subject: "Kích hoạt tài khoản"
+      account: "Kích hoạt tài khoản"
+      reset_pass: "Đặt lại mật khẩu"
