@@ -70,7 +70,14 @@ en:
       title: "Edit user"
       submit: "Save changes"
       text: "Update your profile"
-      change: "Change"
+      change: "Change"  
+    follow:
+      follow: "Follow"
+    unfollow:
+      unfollow: "Unfollow"
+    show_follow:
+      view_my_profile: "view my profile"
+      microposts: "Microposts"
   shared:
     error_messages:
       error: "The form contains %{count} error"
@@ -81,6 +88,9 @@ en:
     user_info:
       view_profile: "View my profile"
       micropost: "Micropost"
+    stats:
+      following: "following"
+      followers: "followers"
   sessions:
     new:
       login: "Log in"
@@ -138,6 +148,8 @@ en:
       user_not_exit: "User does not exist!"
       user_delete: "User deleted"
       log_in: "Please log in."
+      following: "Following"
+      followers: "Followers"
     account_activations:
       success: "Account activated!"
       danger: "Invalid activation link"
@@ -154,6 +166,8 @@ en:
       delete_success: "Micropost deleted successful!"
       delete_fail: "Micropost deleted fail!!"
       flash_warming: "Not micropost"
+    relationship:
+      findfail: "Relationship not exist"
   mailers:
     user:
       account: "Account activation"
