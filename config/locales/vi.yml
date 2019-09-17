@@ -30,6 +30,7 @@ vi:
       body_text: "Đây là trang chủ cho ứng dụng mẫu cho %{link_home}."
       home_href: "Ruby on Rails Tutorial"
       home: "Trang chủ"
+      micropost_feed: "Tất cả bài viết"
     about:
       about: "Thông tin" 
       body_text: "%{link_home} là một %{link_book} và %{link_screencast} 
@@ -56,6 +57,10 @@ vi:
       password: "Mật khẩu"
       confirm: "Xác nhận mật khẩu"
       create: "Tạo tài khoản"
+    create:
+      flash: "Chào mừng đến với ứng dụng mẫu"
+    show:
+      microposts: "Bài viết "
     index:
       title: "Tất cả người dùng"
     user:
@@ -69,6 +74,13 @@ vi:
   shared:
     error_messages:
       error: "Biểu mẫu chứa %{count} lỗi"
+    micropost_form:
+      placeholder: "Soạn micropost mới..."
+      post: "Đăng"
+      upload_size: "Kích thước tệp tối đa là 5MB. Vui lòng chọn một tập tin nhỏ hơn."
+    user_info:
+      view_profile: "Xem hồ sơ của tôi"
+      micropost: "Bài viết"
   sessions:
     new:
       login: "Đăng nhập"
@@ -103,6 +115,12 @@ vi:
       password: "Mật khẩu"
       confirm: "Xác nhận mật khẩu"
       update: "Cập nhật mật khẩu"
+  microposts:
+    micropost:
+      delete: "Xóa"
+      confirm: "Bạn chắc chứ?"
+      post: "Đã đăng "
+      ago: " trước."
   controllers:
     sessions:
       flash_danger: "Email/mật khẩu không hợp lệ"
@@ -117,6 +135,11 @@ vi:
       destroy_success: "Xóa thành công!"
       destroy_fail: "Xóa thất bại"
       infor: "Hãy kiểm tra email của bạn để kích hoạt tài khoản."
+      not_log_in: "Hãy đăng nhập."
+      flash: "Thông tin cập nhật"
+      user_not_exit: "User không tìm thấy!"
+      user_delete: "Người dùng đã bị xóa"
+      log_in: "Hãy đăng nhập"
     account_activations:
       success: "Tài khoản được kích hoạt"
       danger: "Liên kết kích hoạt không hợp lệ"
@@ -128,7 +151,15 @@ vi:
       success: "Mật khẩu đã được đặt lại"
       empty_pass: "Mật khẩu trống"
       expired: "Yêu cầu đặt lại mật khẩu hết hạn"
+    microposts:
+      add_success: "Micropost được tạo thành công!!"
+      delete_success: "Xóa bài viết thành công!"
+      delete_fail: "Xóa bài viết thất bại!"
+      flash_warming: "Không có bài viết"
   mailers:
     user:
       account: "Kích hoạt tài khoản"
       reset_pass: "Đặt lại mật khẩu"
+  models:
+    microposts:
+      size_img: "Nên nhỏ hơn 5MB"

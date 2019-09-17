@@ -30,6 +30,7 @@ en:
       body_text: "This is the home page for the %{link_home} sample application."
       home_href: "Ruby on Rails Tutorial"
       home: "Home"
+      micropost_feed: "Micropost Feed"
     about:
       about: "About"
       body_text: "%{link_home} is a %{link_book} and  %{link_screencast} to teach web 
@@ -56,6 +57,10 @@ en:
       password: "Password"
       confirm: "Conformation"
       create: "Create my account"
+    create:
+      flash: "Welcome to the Sample App!"
+    show:
+      microposts: "Microposts "
     index:
       title: "All users"
     user:
@@ -69,6 +74,13 @@ en:
   shared:
     error_messages:
       error: "The form contains %{count} error"
+    micropost_form:
+      placeholder: "Compose new micropost..."
+      post: "Post"
+      upload_size: "Maximum file size is 5MB. Please choose a smaller file."
+    user_info:
+      view_profile: "View my profile"
+      micropost: "Micropost"
   sessions:
     new:
       login: "Log in"
@@ -101,6 +113,12 @@ en:
       password: "Password"
       confirm: "Confirmation"
       update: "Update password"
+  microposts:
+    micropost:
+      delete: "delete"
+      confirm: "You sure?"
+      post: "Posted "
+      ago: " ago."
   controllers:
     sessions:
       flash_danger: "Invalid email/password combination"
@@ -115,6 +133,11 @@ en:
       destroy_success: "Delete successful!"
       destroy_fail: "Delete fail!"
       infor: "Please check your email to activate your account."
+      not_log_in: "Please log in."
+      flash: "Profile updated"
+      user_not_exit: "User does not exist!"
+      user_delete: "User deleted"
+      log_in: "Please log in."
     account_activations:
       success: "Account activated!"
       danger: "Invalid activation link"
@@ -126,7 +149,15 @@ en:
       success: "Password has been reset"
       empty_pass: "Empty Password"
       expired: "Password reset has expired" 
+    microposts:
+      add_success: "Micropost created successful!!"
+      delete_success: "Micropost deleted successful!"
+      delete_fail: "Micropost deleted fail!!"
+      flash_warming: "Not micropost"
   mailers:
     user:
       account: "Account activation"
       reset_pass: "Password reset"
+  models:
+    microposts:
+      size_img: "should be less than 5MB"
